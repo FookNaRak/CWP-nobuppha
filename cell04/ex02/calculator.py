@@ -1,0 +1,7 @@
+fnum = int(input())
+snum = int(input())
+print("Thank you!")
+print(f'{fnum} + {snum} = {fnum + snum}')
+print(f'{fnum} - {snum} = {fnum - snum}')
+print(f'{fnum} / {snum} = {fnum / snum}')
+print(f'{fnum} * {snum} = {fnum * snum}')
