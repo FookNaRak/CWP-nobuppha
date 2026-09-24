@@ -66,30 +66,3 @@ python3 main.py
 Success
 ```
 
-### 2. ทดสอบส่วน Bonus (`ex01`)
-เข้าไปที่โฟลเดอร์ `ex01` และทดสอบด้วยไฟล์ `.chess`:
-```bash
-cd ex01
-
-# ทดสอบ 1 ไฟล์ที่ถูกต้อง
-python3 main.py valid_board.chess
-# ผลลัพธ์: Success
-
-# ทดสอบ 2 ไฟล์พร้อมกัน
-python3 main.py valid_board.chess valid_board2.chess
-# ผลลัพธ์:
-# Success
-# Success
-
-# ทดสอบไฟล์ที่มีกระดานผิดรูปแบบ
-python3 main.py invalid_board.chess valid_board2.chess
-# ผลลัพธ์:
-# Error
-# Success
-
-# ทดสอบฟังก์ชัน Creative Bonus (แสดงผังกระดานและวิเคราะห์ตำแหน่งการโจมตี)
-python3 main.py valid_board.chess --visual
-```
-
----
-
